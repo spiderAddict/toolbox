@@ -1,3 +1,3 @@
 # toolbox
 
-- Alias Git
+- [Alias Git](git%20/alias)
