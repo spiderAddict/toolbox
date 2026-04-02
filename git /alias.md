@@ -5,6 +5,7 @@ git config --global alias.st status
 git config --global alias.lol 'log --graph --decorate --oneline'
 git config --global alias.pfwl 'push --force-with-lease origin'
 git config --global alias.cane 'commit --amend --no-edit'
+git config --global alias.rs1 'reset --soft HEAD~1'
 ```
 
 ---
@@ -31,4 +32,5 @@ exemple : `git rbi 3`
 git config --global alias.upbr '!f() { git fetch origin $1:$1; }; f'
 ```
 exemple : `git upbr develop`
+
   
