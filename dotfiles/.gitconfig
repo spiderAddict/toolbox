@@ -1,5 +1,0 @@
-[include]
-  path = /workspaces/dotfiles/git/options.gitconfig
-
-[include]
-  path = /workspaces/dotfiles/git/aliases.gitconfig
