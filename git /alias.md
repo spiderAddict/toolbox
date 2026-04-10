@@ -22,7 +22,7 @@ exemple : `git pushd`
 
 ### Rebase interactif de X commits
 ``` bash
-git config --global alias.rbi '!f() { git rebase -i HEAD~$1; }; f'*
+git config --global alias.rbi '!f() { n=${1:-1}; git rebase -i HEAD~$n; }; f'*
 ```
 exemple : `git rbi 3`
 
