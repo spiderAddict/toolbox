@@ -30,7 +30,8 @@ exemple : `git rbi 3`
 
 ### Mettre à jour une branche sans en changer
 ``` bash
-git config --global alias.upbr '!f() { git fetch origin $1:$1; }; f'
+git config --global alias.upbr '!f() { [ -z \"$1\" ] && { echo 'usage: git upbr <branch>'; return 1; }; git fetch origin \"$1:$1\";; }; f'
+
 ```
 exemple : `git upbr develop`
 
