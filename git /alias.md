@@ -14,7 +14,7 @@ git config --global alias.rs1 'reset --soft HEAD~1'
 La branche sera créé dans le repo distant avec le nom de la branche locale
 ``` bash
 git config --global alias.pushd '!f() { _BRANCH $(git symbolic-ref --short head); git push --set-upstream origin $_BRANCH;}; f'
-git config --global alias.pushd '--set-upstream origin HEAD'
+git config --global alias.pushd 'push --set-upstream origin HEAD'
 ```
 exemple : `git pushd`
 
